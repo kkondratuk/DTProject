@@ -1,0 +1,6 @@
+bin/
+obj/
+Web.Debug.config
+Web.Release.config
+TestWebService.csproj.user
+TestWebService.csproj.vs10x
