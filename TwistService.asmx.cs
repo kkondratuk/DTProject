@@ -9,9 +9,9 @@ namespace TestWebService
     public class TwistService : WebService
     {
         [WebMethod]
-        public string HelloWorld()
+        public string WelcomeWorld()
         {
-            return "Hello World";
+            return "Welcome World";
         }
 		
 		[WebMethod]
