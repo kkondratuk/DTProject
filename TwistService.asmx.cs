@@ -19,5 +19,11 @@ namespace TestWebService
         {
             return HelloWorld() + name;
         }
+		
+		[WebMethod]
+        public string GetCustomMessage(string message, string name)
+        {
+            return message + name;
+        }
     }
 }
