@@ -11,7 +11,7 @@ namespace TestWebService
         [WebMethod]
         public string HelloWorld()
         {
-            return "Hello World";
+            return "Welcome World";
         }
     }
 }
